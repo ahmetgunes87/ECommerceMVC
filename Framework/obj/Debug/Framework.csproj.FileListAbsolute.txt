@@ -1,0 +1,180 @@
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.dll.config
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.dll
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.pdb
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.dll
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\Iesi.Collections.dll
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\NHibernate.dll
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.xml
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\Iesi.Collections.xml
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\NHibernate.xml
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.csprojResolveAssemblyReference.cache
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.dll
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.pdb
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\FluentNHibernate.dll
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\FluentNHibernate.pdb
+c:\users\engin\documents\visual studio 2015\Projects\DevFramework\DevFramework.Core\bin\Debug\FluentNHibernate.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.dll.config
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.pdb
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\FluentNHibernate.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\FluentValidation.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\Iesi.Collections.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\NHibernate.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\PostSharp.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\FluentNHibernate.pdb
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\FluentNHibernate.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\FluentValidation.pdb
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\FluentValidation.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\Iesi.Collections.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\NHibernate.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\PostSharp.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\cs\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\da\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\de\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\es\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\fa\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\fi\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\fr\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\it\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\ko\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\mk\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\nl\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\pl\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\pt\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\ru\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\sv\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\tr\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\zh-CN\FluentValidation.resources.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.pssym
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.csprojResolveAssemblyReference.cache
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.dll.postsharp
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.pdb
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\log4net.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\Newtonsoft.Json.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\log4net.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\Newtonsoft.Json.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\Ninject.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.Helpers.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.Mvc.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.Razor.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.Razor.dll
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\Ninject.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.Helpers.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.Mvc.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.Razor.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\2017\Projeler\VS.Net\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.dll.config
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.pdb
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\FluentNHibernate.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\FluentValidation.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\Iesi.Collections.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\log4net.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\NHibernate.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\Ninject.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\PostSharp.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.Helpers.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.Mvc.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.Razor.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\FluentNHibernate.pdb
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\FluentNHibernate.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\FluentValidation.pdb
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\FluentValidation.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\Iesi.Collections.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\log4net.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\NHibernate.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\Ninject.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\PostSharp.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.Helpers.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.Mvc.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.Razor.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\cs\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\da\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\de\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\es\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\fa\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\fi\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\fr\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\it\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\ko\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\mk\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\nl\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\pl\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\pt\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\ru\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\sv\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\tr\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\zh-CN\FluentValidation.resources.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\DevFramework.Core.pssym
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.csprojResolveAssemblyReference.cache
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.dll.postsharp
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\obj\Debug\DevFramework.Core.pdb
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\AutoMapper.dll
+C:\Projects\DevFramework-4\DevFramework 4\DevFramework\DevFramework.Core\bin\Debug\AutoMapper.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Framework.dll.config
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Framework.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Framework.pdb
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\AutoMapper.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\EntityFramework.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\FluentValidation.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Iesi.Collections.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\log4net.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Ninject.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\PostSharp.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.Helpers.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.Mvc.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.Razor.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.WebPages.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\AutoMapper.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\EntityFramework.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\FluentValidation.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Iesi.Collections.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\log4net.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Ninject.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\PostSharp.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.Helpers.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.Mvc.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.Razor.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.WebPages.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\bin\Debug\Framework.pssym
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\obj\Debug\Framework.csproj.CoreCompileInputs.cache
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\obj\Debug\Framework.csproj.CopyComplete
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\obj\Debug\Framework.dll.postsharp
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\obj\Debug\Framework.dll
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\obj\Debug\Framework.pdb
+C:\Users\Ahmet\Source\Repos\ECommerce\Framework\obj\Debug\Framework.csprojAssemblyReference.cache

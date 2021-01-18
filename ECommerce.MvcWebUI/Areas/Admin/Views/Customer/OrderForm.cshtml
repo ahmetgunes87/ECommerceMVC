@@ -1,0 +1,63 @@
+﻿@using ECommerce.Entities.ComplexTypes
+@model CustomerOrderItem
+@{
+    ViewBag.Title = ViewBag.Title;
+    Layout = "~/Areas/Admin/Views/Shared/_Layaout.cshtml";
+}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <h1 class="h2">@ViewBag.Title</h1>
+</div>
+
+@if (TempData["Message"] != null)
+{
+    var message = (ECommerce.MvcWebUI.Areas.Admin.ViewModels.MessageViewModel)TempData["Message"];
+    <div class="alert @message.CssClass alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>@message.Title</strong> @message.Message <a href="@message.Url">@message.LinkText</a>
+    </div>
+}
+
+@using (Html.BeginForm("OrderForm", "Customer", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                @Html.LabelFor(c => c.Order.OrderStatusId)
+                @Html.DropDownListFor(c => c.Order.OrderStatusId, new SelectList(Model.OrderStatuses, "Id", "Status"), new { @class = "form-control" })
+                @Html.ValidationMessageFor(c => c.Order.OrderStatusId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                @Html.LabelFor(c => c.Order.AddressId)
+                @Html.DropDownListFor(c => c.Order.AddressId, new SelectList(Model.Addresses, "Id", "AddressName"), new { @class = "form-control" })
+                @Html.ValidationMessageFor(c => c.Order.AddressId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                @Html.LabelFor(c => c.Order.OrderDate)
+                @Html.TextBoxFor(c => c.Order.OrderDate, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date", @readonly = "readonly" })
+                @Html.ValidationMessageFor(c => c.Order.OrderDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                @Html.LabelFor(c => c.Order.DeliveryDate)
+                @Html.TextBoxFor(c => c.Order.DeliveryDate, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+                @Html.ValidationMessageFor(c => c.Order.DeliveryDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        @Html.HiddenFor(c => c.Order.Id)
+        @Html.HiddenFor(c => c.Order.CustomerId)
+        @Html.HiddenFor(c => c.Order.ProductId)
+        <button type="submit" class="btn btn-info">Kaydet</button>
+    </div>
+}

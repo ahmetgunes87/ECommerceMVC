@@ -1,0 +1,50 @@
+﻿@using ECommerce.Entities.Concrete
+@model List<User>
+@{
+    ViewBag.Title = "Kullanıcılar";
+    Layout = "~/Areas/Admin/Views/Shared/_Layaout.cshtml";
+}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <h1 class="h2">Kullanıcı Listesi</h1>
+</div>
+
+<div class="pt-3 pb-2 mb-3">
+    <a href="@Url.Action("Form", "User")" class="btn btn-success"><i class="fa fa-plus"></i> Yeni Kullanıcı</a>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Kullanıcı Adı</th>
+            <th>Ad Soyad</th>
+            <th>E-mail</th>
+            <th>Durum</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td><code>@user.UserName</code></td>
+                <td>@user.FirstName @user.LastName</td>
+                <td>@user.Email</td>
+                <td>
+                    @if (user.IsActive)
+                    {
+                        <h6><span class="badge badge-success">Aktif</span></h6>
+                    }
+                    else
+                    {
+                        <h6><span class="badge badge-danger">Pasif</span></h6>
+                    }
+                </td>
+            <td>
+                @Html.ActionLink("Roller", "Role", null, new { id = user.Id }, new { @class = "btn btn-dark" })
+                @Html.ActionLink("Güncelle", "Update", null, new { id = user.Id }, new { @class = "btn btn-primary" })
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,62 @@
+﻿@using ECommerce.Entities.ComplexTypes
+@model List<CustomerOrderItem>
+@{
+    ViewBag.Title = "Müşteri Siparişleri";
+    Layout = "~/Areas/Admin/Views/Shared/_Layaout.cshtml";
+}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <h1 class="h2">Müşteri Sipariş Listesi</h1>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ürün</th>
+            <th>Sipariş Tarihi</th>
+            <th>Teslim Tarihi</th>
+            <th>Sipariş Durumu</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customerOrder in Model)
+        {
+            <tr>
+                <td>@customerOrder.ProductName</td>
+                <td>@customerOrder.Order.OrderDate.ToString("dd.MM.yyyy")</td>
+                <td>
+                    @if (customerOrder.Order.DeliveryDate != null)
+                    {
+                        @customerOrder.Order.DeliveryDate.Value.ToString("dd.MM.yyyy")
+                    }
+                    else
+                    {
+                        <code>Belirtilmemiş</code>
+                    }
+                </td>
+                <td>
+                    @if (customerOrder.OrderStatus == "Gönderildi")
+                    {
+                        <h6><span class="badge badge-success">@customerOrder.OrderStatus</span></h6>
+                    }
+                    else if (customerOrder.OrderStatus == "Kargoda")
+                    {
+                        <h6><span class="badge badge-warning">@customerOrder.OrderStatus</span></h6>
+                    }
+                    else if (customerOrder.OrderStatus == "İptal Edildi")
+                    {
+                        <h6><span class="badge badge-danger">@customerOrder.OrderStatus</span></h6>
+                    }
+                    else
+                    {
+                        <h6><span class="badge badge-light">@customerOrder.OrderStatus</span></h6>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Güncelle", "UpdateOrder", null, new { id = customerOrder.Order.Id }, new { @class = "btn btn-primary" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,47 @@
+﻿@using ECommerce.Entities.Concrete
+@model List<Brand>
+
+@{
+    ViewBag.Title = "Markalar";
+    Layout = "~/Areas/Admin/Views/Shared/_Layaout.cshtml";
+}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <h1 class="h2">Marka Listesi</h1>
+</div>
+
+<div class="pt-3 pb-2 mb-3">
+    <a href="@Url.Action("Form", "Brand")" class="btn btn-success"><i class="fa fa-plus"></i> Yeni Marka</a>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Marka Adı</th>
+            <th>Durum</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var brand in Model)
+        {
+            <tr>
+                <td>@brand.BrandName</td>
+                <td>
+                    @if (brand.IsActive)
+                    {
+                        <h6><span class="badge badge-success">Aktif</span></h6>
+                    }
+                    else
+                    {
+                        <h6><span class="badge badge-danger">Pasif</span></h6>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Güncelle", "Update", null, new { id = brand.Id }, new { @class = "btn btn-primary" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

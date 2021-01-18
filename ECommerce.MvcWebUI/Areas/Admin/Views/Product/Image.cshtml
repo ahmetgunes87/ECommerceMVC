@@ -1,0 +1,87 @@
+﻿@using ECommerce.MvcWebUI.Areas.Admin.ViewModels
+@model ImagesViewModel
+@{
+    ViewBag.Title = ViewBag.Title;
+    Layout = "~/Areas/Admin/Views/Shared/_Layaout.cshtml";
+}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <h1 class="h2">@ViewBag.Title</h1>
+</div>
+
+@if (TempData["Message"] != null)
+{
+    var message = (ECommerce.MvcWebUI.Areas.Admin.ViewModels.MessageViewModel)TempData["Message"];
+    <div class="alert @message.CssClass alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>@message.Title</strong> @message.Message <a href="@message.Url">@message.LinkText</a>
+    </div>
+}
+
+@using (Html.BeginForm("Image", "Product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(p => p.images)
+        @Html.TextBoxFor(p => p.images, "", new { @class = "form-control", @type = "file", @multiple = "multiple" })
+        @Html.ValidationMessageFor(p => p.images, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group mt-3">
+        <button type="submit" class="btn btn-info">Yükle</button>
+    </div>
+}
+
+<div class="row">
+    @foreach (var item in Model.ProductImages)
+    {
+        <div class="col-md-4 mt-4">
+            <a data-toggle="modal" href="#mmodal-@item.Id">
+                <img class="img-fluid" src="/UploadedImages/@item.ProductId/@item.Image" alt="@item.Product.ProductName" />
+            </a>
+            <div class="mt-2 text-center">
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-@item.Id">
+                    Sil
+                </button>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modal-@item.Id" tabindex="-1" role="dialog" aria-labelledby="modalLabel-@item.Id" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLabel-@item.Id">Emin misiniz?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Seçtiniz resim silinecektir.
+                    </div>
+                    <div class="modal-footer">
+                        @Ajax.ActionLink("Sil", "DeleteImage", "Product", new { id = item.Id }, new AjaxOptions { HttpMethod = "POST" }, new { @class = "btn btn-danger" })
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Vazgeç</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="mmodal-@item.Id" tabindex="-1" role="dialog" aria-labelledby="mmodalLabel-@item.Id" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="mmodalLabel-@item.Id">Emin misiniz?</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Seçtiniz resim ana resim olacaktır.
+                    </div>
+                    <div class="modal-footer">
+                        @Ajax.ActionLink("Evet", "MainImage", "Product", new { id = item.Id }, new AjaxOptions { HttpMethod = "POST" }, new { @class = "btn btn-success" })
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Vazgeç</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

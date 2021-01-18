@@ -1,0 +1,56 @@
+﻿@using ECommerce.Entities.ComplexTypes
+@model CustomerAddressItem
+@{
+    ViewBag.Title = ViewBag.Title;
+    Layout = "~/Areas/Admin/Views/Shared/_Layaout.cshtml";
+}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <h1 class="h2">@ViewBag.Title</h1>
+</div>
+
+@if (TempData["Message"] != null)
+{
+    var message = (ECommerce.MvcWebUI.Areas.Admin.ViewModels.MessageViewModel)TempData["Message"];
+    <div class="alert @message.CssClass alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>@message.Title</strong> @message.Message <a href="@message.Url">@message.LinkText</a>
+    </div>
+}
+
+@using (Html.BeginForm("AddressForm", "Customer", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(c => c.Address.AddressName)
+        @Html.TextBoxFor(c => c.Address.AddressName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Address.AddressName, "", new { @class = "text-danger" })
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                @Html.LabelFor(c => c.Address.CityId)
+                @Html.DropDownListFor(c => c.Address.CityId, new SelectList(Model.Cities, "Id", "CityName"), "İl Seçiniz", new { @class = "form-control" })
+                @Html.ValidationMessageFor(c => c.Address.CityId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                @Html.LabelFor(c => c.Address.DistrictId)
+                @Html.DropDownListFor(c => c.Address.DistrictId, new SelectList(Model.Districts, "Id", "DistrictName"), "İlçe Seçiniz", new { @class = "form-control" })
+                @Html.ValidationMessageFor(c => c.Address.DistrictId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(c => c.Address.AddressContent)
+        @Html.TextBoxFor(c => c.Address.AddressContent, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Address.AddressContent, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group mt-3">
+        @Html.HiddenFor(c => c.Address.Id)
+        @Html.HiddenFor(c => c.Address.CustomerId)
+        <button type="submit" class="btn btn-info">Kaydet</button>
+    </div>
+}

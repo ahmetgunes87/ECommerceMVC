@@ -1,0 +1,38 @@
+﻿@using ECommerce.Entities.Concrete
+@model Category
+@{
+    ViewBag.Title = ViewBag.Title;
+    Layout = "~/Areas/Admin/Views/Shared/_Layaout.cshtml";
+}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <h1 class="h2">@ViewBag.Title</h1>
+</div>
+
+@if (TempData["Message"] != null)
+{
+    var message = (ECommerce.MvcWebUI.Areas.Admin.ViewModels.MessageViewModel)TempData["Message"];
+    <div class="alert @message.CssClass alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>@message.Title</strong> @message.Message <a href="@message.Url">@message.LinkText</a>
+    </div>
+}
+
+@using (Html.BeginForm("Form", "Category", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        @Html.LabelFor(c => c.CategoryName)
+        @Html.TextBoxFor(c => c.CategoryName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.CategoryName, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-check form-check-inline">
+        @Html.CheckBoxFor(c => c.IsActive, new { @class = "form-check-input" })
+        @Html.LabelFor(c => c.IsActive, "Kategori aktifse seçiniz", new { @class = "form-check-label" })
+    </div>
+    <div class="form-group mt-3">
+        @Html.HiddenFor(c => c.Id)
+        <button type="submit" class="btn btn-info">Kaydet</button>
+    </div>
+}
+

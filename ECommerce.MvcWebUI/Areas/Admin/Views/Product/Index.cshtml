@@ -1,0 +1,61 @@
+﻿@using ECommerce.Entities.ComplexTypes
+@model List<ProductItem>
+@{
+    ViewBag.Title = "Ürünler";
+    Layout = "~/Areas/Admin/Views/Shared/_Layaout.cshtml";
+}
+
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
+    <h1 class="h2">Ürün Listesi</h1>
+</div>
+
+<div class="pt-3 pb-2 mb-3">
+    <a href="@Url.Action("Form", "Product")" class="btn btn-success"><i class="fa fa-plus"></i> Yeni Ürün</a>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Resim</th>
+            <th>Ürün Adı</th>
+            <th>Kategori</th>
+            <th>Fiyat</th>
+            <th>Durum</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(product.MainImage))
+                    {
+                        <img width="150" height="150" class="img-fluid" src="/UploadedImages/@product.Product.Id/@product.MainImage" alt="@product.Product.ProductName" />
+                    }
+                    else
+                    {
+                        <code>[Ana Resim Yok]</code>
+                    }
+                </td>
+                <td>@product.Product.ProductName</td>
+                <td>@product.CategoryName</td>
+                <td>@string.Format("{0:c}", product.Product.UnitPrice)</td>
+                <td>
+                    @if (product.Product.IsActive)
+                    {
+                        <h6><span class="badge badge-success">Aktif</span></h6>
+                    }
+                    else
+                    {
+                        <h6><span class="badge badge-danger">Pasif</span></h6>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Resimler", "Image", null, new { id = product.Product.Id }, new { @class = "btn btn-dark" })
+                    @Html.ActionLink("Güncelle", "Update", null, new { id = product.Product.Id }, new { @class = "btn btn-primary" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

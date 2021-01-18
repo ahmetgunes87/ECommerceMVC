@@ -1,0 +1,14 @@
+﻿@model ECommerce.MvcWebUI.Areas.Admin.ViewModels.MessageViewModel
+
+@if (Model.Status)
+{
+    <div class="alert alert-success">
+        <strong>@Model.Title</strong> @Model.Message <a href="@Model.Url">@Model.LinkText</a>
+    </div>
+}
+else
+{
+    <div class="alert alert-danger">
+        <strong>@Model.Title</strong> adlı @Model.Message
+    </div>
+}

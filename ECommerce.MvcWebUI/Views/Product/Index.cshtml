@@ -1,0 +1,25 @@
+﻿@using ECommerce.Entities.Concrete
+@model List<Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    ul li:nth-last-child(4n+1) {
+        margin-bottom: 20px;
+    }
+</style>
+
+<h2>Get Product List</h2>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.CategoryId</li>
+        <li>@item.ProductName</li>
+        <li>@item.UnitPrice</li>
+        <li>@item.UnitsInStock</li>        
+    }
+</ul>
+
